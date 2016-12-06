@@ -1,0 +1,61 @@
+
+/*
+ *****************************************
+ * Section Header =container
+ *****************************************
+*/
+
+#container {
+  width: 800px;
+  margin: auto;
+  background-color: pink;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+
+
+
+/*
+ *****************************************
+ * Section Header =top-logo
+ *****************************************
+*/
+
+#top-logo {
+  background-image: url(../images/mint1.png);
+  background-repeat: no-repeat;
+  background-size: 110px 52px;
+  margin-top: 45px;
+  padding: 25px 0;/* Just to display BG image*/
+  /*background-color: blue;*/
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  /*padding-top: 30px;*/
+}
+
+nav li {
+  display: inline;
+}
+
+nav li:first-child {
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+  margin: 0 8px 0 5px;
+}
+
+nav li:after {
+  content: '|';
+}
+
+nav li:last-child:after {
+  content: '';
+}
