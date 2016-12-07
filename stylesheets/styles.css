@@ -114,6 +114,54 @@ input {
   height: 32px;
   width: 320px;
 }
+
+#check-box, #check-box-label {
+  display: inline;
+  position: relative;
+  float: left;
+}
+
+#check-box {
+  height:23px;
+  width: 23px;
+  margin: 26px 5px 22px 0;
+}
+
+/*clearfix*/
+.wrapper:after {
+  clear: both;
+  display: block;
+  content: ' ';
+  visibility: hidden;
+  height: 1%;
+}
+
+button, .wrapper {
+  display: block;
+}
+
+button {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #45cae6;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 5px 15px;
+}
+
+p {
+  margin: 15px 0 50px 0;
+  font-size: 12px;
+  color: #7e7f80;
+}
+
+p a {
+  color: #45cae6;
+}
+
+
 /*
  *****************************************
  * Section Header =aside
@@ -129,7 +177,7 @@ aside {
 
 .border-line, aside {
   float: right;
-  height: 580px;
+  height: 593px;
 }
 
 .border-line {
