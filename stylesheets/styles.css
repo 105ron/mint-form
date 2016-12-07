@@ -8,13 +8,15 @@
 #container {
   width: 800px;
   margin: auto;
-  background-color: pink;
+  /*background-color: pink;*/
   overflow: hidden;
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 /*
  *****************************************
@@ -37,7 +39,8 @@ nav ul {
   /*padding-top: 30px;*/
 }
 
-nav li {
+nav li,
+footer li {
   display: inline;
 }
 
@@ -46,16 +49,91 @@ nav li:first-child {
 }
 
 nav a {
-  text-decoration: none;
   font-size: 16px;
   color: #000;
   margin: 0 8px 0 5px;
 }
 
-nav li:after {
+nav li:after, 
+footer li:after {
   content: '|';
 }
 
-nav li:last-child:after {
+nav li:last-child:after,
+footer li:last-child:after {
   content: '';
+}
+
+/*
+ *****************************************
+ * Section Header =form
+ *****************************************
+*/
+.main-section {
+  /*background-color: pink;*/
+  margin-top: 5px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*clearfix*/
+.main-section:after {
+  clear: both;
+  display: block;
+  content: ' ';
+  visibility: hidden;
+  height: 1%;
+}
+
+section {
+  float: left;
+}
+
+.form {
+  margin-left: 55px;
+  width: 400px;
+  background-color: white;
+}
+
+.form h1 {
+  font-size: 27px;
+  font-weight: 100;
+  line-height: 40px;
+  padding: 50px 0 0 0;
+  margin: 0;
+}
+
+label {
+  display: block;
+  font-weight: 100;
+  font-size: 14px;
+  margin: 28px 0 17px 0;
+}
+
+input {
+  display: block;
+  height: 32px;
+  width: 320px;
+}
+/*
+ *****************************************
+ * Section Header =aside
+ *****************************************
+*/
+
+aside {
+  width: 197px;
+  margin: 50px 27px 0 27px;
+  background: #f5f5f5;
+}
+
+.border-line, aside {
+  float: right;
+  height: 580px;
+}
+
+.border-line {
+  width: 30px;
+  margin-top: 50px;
+  border-right: solid 1px lightgray;
+  /*background: pink;*/
 }
