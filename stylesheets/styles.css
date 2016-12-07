@@ -124,6 +124,7 @@ aside {
   width: 197px;
   margin: 50px 27px 0 27px;
   background: #f5f5f5;
+  color: #666;
 }
 
 .border-line, aside {
@@ -136,4 +137,27 @@ aside {
   margin-top: 50px;
   border-right: solid 1px lightgray;
   /*background: pink;*/
+}
+
+h4 {
+  margin: 22px 0 0 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 19px;
+}
+
+aside ul {
+  padding: 0 0 0 36px;
+}
+
+aside li {
+  list-style-type: disc;
+  padding: 0 15px 5px 0;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+aside a {
+  color: #666;
+  text-decoration: underline;
 }
