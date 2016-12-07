@@ -152,7 +152,7 @@ button {
 }
 
 p {
-  margin: 15px 0 50px 0;
+  margin: 15px 0 55px 0;
   font-size: 12px;
   color: #7e7f80;
 }
@@ -208,4 +208,26 @@ aside li {
 aside a {
   color: #666;
   text-decoration: underline;
+}
+
+/*
+ *****************************************
+ * Section Header =footer
+ *****************************************
+*/
+footer {
+  text-align: center;
+  color: #a5a5a5;
+}
+
+footer ul {
+  padding: 0 13px 0 11px;
+  margin-top: 40px;
+}
+
+footer a {
+  font-size: 12px;
+  color: #000;
+  margin: 0 28px 0 25px;
+  color: #a5a5a5;
 }
